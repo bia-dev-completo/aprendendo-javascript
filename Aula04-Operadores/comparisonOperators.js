@@ -2,7 +2,7 @@
 
 console.log("-----------------------------OPERADORES DE COMPARAÇÃO------------------------------");
 
-//----------------------------IDADE------------------------------------------------
+//--------------------------------------------------------------------------------
 
 const idadeBia = 24;
 const idadeMatheus = 25;
@@ -16,13 +16,12 @@ const maioridade = 18;
 
 console.log("Bia é maior de idade? ", idadeBia >= maioridade); // idade da Bia é > ou = a 18 anos?
 
-//---------------------------CASAMENTO DA BIA---------------------------------------
+// -------------------------------------------------------------------------------
 
-let valorCasamento = 500;
-const numeroConvidados = 150;
-console.log("Custo por pessoa do casamento: ", valorCasamento);
-console.log("Número de convidados: ", numeroConvidados);
+const x = 10;
+const y = 20;
+const z = "10";
 
-valorCasamento *= 150;
-console.log("Valor total do casamento: ", valorCasamento);
+console.log("O número " + x + " é igual ao número " + y, x === y);
+console.log("O número " + x + " é igual ao número " + z, x == z);
 
